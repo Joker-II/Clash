@@ -1,29 +1,4 @@
 # 内容：中国媒体列表
-# 更新：2023-12-14 21:59:07
-# 数量：45条
-
-# Bilibili 哔哩哔哩
-USER-AGENT,Bilibili*
-USER-AGENT,bili*
-USER-AGENT,bili-inter*
-DOMAIN,apiintl.biliapi.net
-DOMAIN,upos-hz-mirrorakam.akamaized.net
-DOMAIN-SUFFIX,acg.tv
-DOMAIN-SUFFIX,acgvideo.com
-DOMAIN-SUFFIX,b23.tv
-DOMAIN-SUFFIX,bigfun.cn
-DOMAIN-SUFFIX,bigfunapp.cn
-DOMAIN-SUFFIX,biliapi.com
-DOMAIN-SUFFIX,biliapi.net
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,bilibili.tv
-DOMAIN-SUFFIX,biligame.com
-DOMAIN-SUFFIX,biligame.net
-DOMAIN-SUFFIX,bilivideo.cn
-DOMAIN-SUFFIX,bilivideo.com
-DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,im9.com
-DOMAIN-SUFFIX,smtcdns.net
 
 # Iqiyi 爱奇艺
 USER-AGENT,QYPlayer*
