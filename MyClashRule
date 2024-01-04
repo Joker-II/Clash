@@ -1,7 +1,7 @@
 [custom]
 
 ;设置规则标志位
-ruleset=🎵 TikTok,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
+ruleset=🎵 TikTok,https://raw.githubusercontent.com/Hreo-Q/QuantumultX/Rule/TikTok.list
 ruleset=🎼 Spotify,https://raw.githubusercontent.com/Hreo-Q/QuantumultX/Rule/Spotify.list
 ruleset=📲  Telegram,https://raw.githubusercontent.com/Hreo-Q/QuantumultX/Rule/Telegram.list
 ruleset=📢 Google,https://raw.githubusercontent.com/Hreo-Q/QuantumultX/Rule/Google.list
