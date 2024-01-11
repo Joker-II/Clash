@@ -15,7 +15,7 @@ ruleset=🐟 漏网之鱼,[]FINAL
 
 ;设置分组标志位
 ;测速规则，间隔600秒，小于100不做切换
-custom_proxy_group=♻️ 自动选择`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong|台|新北|彰化|TW|Taiwan|KR|Korea|KOR|首尔|韩|韓|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|新加坡|坡|狮城|SG|Singapore|美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)http://www.gstatic.com/generate_204`600,100
+custom_proxy_group=♻️ 自动选择`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong|台|新北|彰化|TW|Taiwan|KR|Korea|KOR|首尔|韩|韓|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|新加坡|坡|狮城|SG|Singapore|美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://www.gstatic.com/generate_204`600,100
 custom_proxy_group=🐟 漏网之鱼`select`[]DIRECT`[]♻️ 自动选择`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`
 custom_proxy_group=🎵 TikTok`select`[]香港`[]台湾`[]日本`[]新加坡`[]美国`
 custom_proxy_group=🎼 Spotify`select`[]♻️ 自动选择`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`
