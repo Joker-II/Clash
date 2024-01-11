@@ -17,7 +17,7 @@ ruleset=🐟 漏网之鱼,[]FINAL
 
 ;设置分组标志位
 ;测速规则，间隔600秒，小于100不做切换
-custom_proxy_group=♻️ 自动选择`url-test`香港|台湾|韩国|日本|美国|新加坡`http://www.gstatic.com/generate_204`600,100
+custom_proxy_group=♻️ 自动选择``select`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`
 custom_proxy_group=🐟 漏网之鱼`select`[]DIRECT`[]♻️ 自动选择`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`
 custom_proxy_group=🎵 TikTok`select`[]香港`[]台湾`[]日本`[]新加坡`[]美国`
 custom_proxy_group=🎼 Spotify`select`[]♻️ 自动选择`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`
