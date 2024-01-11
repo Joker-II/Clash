@@ -16,16 +16,16 @@ ruleset=🐟 漏网之鱼,[]FINAL
 ;设置分组标志位
 ;测速规则，间隔600秒，小于100不做切换
 custom_proxy_group=♻️ 自动选择`url-test`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`http://www.gstatic.com/generate_204`600,100
-custom_proxy_group=🐟 漏网之鱼`select`[]DIRECT`[]♻️ 自动选择`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`
+custom_proxy_group=🐟 漏网之鱼`select`[]DIRECT`[]♻️ 自动选择`
 custom_proxy_group=🎵 TikTok`select`[]香港`[]台湾`[]日本`[]新加坡`[]美国`
 custom_proxy_group=🎼 Spotify`select`[]♻️ 自动选择`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`
 custom_proxy_group=📲  Telegram`select`[]♻️ 自动选择`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`
 custom_proxy_group=📢 Google`select`[]♻️ 自动选择`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`
 custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]♻️ 自动选择`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`
-custom_proxy_group=📺 哔哩哔哩`select`[]DIRECT`[]🎯 全球直连`[]台湾`[]香港`
+custom_proxy_group=📺 哔哩哔哩`select` DIRECT`[]台湾`[]香港`
 custom_proxy_group=🎯 全球直连`select` DIRECT`
-custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
-custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]DIRECT
+custom_proxy_group=🍃 应用净化`select` REJECT`
+custom_proxy_group=🆎 AdBlock`select` REJECT`
 custom_proxy_group=香港`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong)).*$)`http://www.gstatic.com/generate_204`600,100
 custom_proxy_group=台湾`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|新北|彰化|TW|Taiwan)).*$)`http://www.gstatic.com/generate_204`600,100
 custom_proxy_group=韩国`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:KR|Korea|KOR|首尔|韩|韓))`http://www.gstatic.com/generate_204`600,100
