@@ -1,29 +1,29 @@
 payload:
 # Spotify
-  - dimain,audio4-ak-spotify-com.akamaized.net
-  - dimain,cdn-spotify-experiments.conductrics.com
-  - dimain,heads-ak-spotify-com.akamaized.net
-  - dimain,spotify.com.edgesuite.net
-  - dimain,spotify.map.fastly.net
-  - dimain,spotify.map.fastlylb.net
-  - dimain-suffix,audio-ak-spotify-com.akamaized.net
-  - dimain-suffix,byspotify.com
-  - dimain-suffix,heads4-ak-spotify-com.akamaized.net
-  - dimain-suffix,pscdn.co
-  - dimain-suffix,scdn.co
-  - dimain-suffix,spoti.fi
-  - dimain-suffix,spotify-com.akamaized.net
-  - dimain-suffix,spotify-everywhere.com
-  - dimain-suffix,spotify.com
-  - dimain-suffix,spotify.design
-  - dimain-suffix,spotifycdn.com
-  - dimain-suffix,spotifycdn.net
-  - dimain-suffix,spotifycharts.com
-  - dimain-suffix,spotifycodes.com
-  - dimain-suffix,spotifyforbrands.com
-  - dimain-suffix,spotifyjobs.com
-  - dimain-suffix,spotifynewsroom.jp
-  - dimain-suffix,spotilocal.com
-  - dimain-suffix,tospotify.com
-  - dimain-keyword,-spotify-
-  - dimain-keyword,spotify.com
+  -,dimain,audio4-ak-spotify-com.akamaized.net
+  -,dimain,cdn-spotify-experiments.conductrics.com
+  -,dimain,heads-ak-spotify-com.akamaized.net
+  -,dimain,spotify.com.edgesuite.net
+  -,dimain,spotify.map.fastly.net
+  -,dimain,spotify.map.fastlylb.net
+  -,dimain-suffix,audio-ak-spotify-com.akamaized.net
+  -,dimain-suffix,byspotify.com
+  -,dimain-suffix,heads4-ak-spotify-com.akamaized.net
+  -,dimain-suffix,pscdn.co
+  -,dimain-suffix,scdn.co
+  -,dimain-suffix,spoti.fi
+  -,dimain-suffix,spotify-com.akamaized.net
+  -,dimain-suffix,spotify-everywhere.com
+  -,dimain-suffix,spotify.com
+  -,dimain-suffix,spotify.design
+  -,dimain-suffix,spotifycdn.com
+  -,dimain-suffix,spotifycdn.net
+  -,dimain-suffix,spotifycharts.com
+  -,dimain-suffix,spotifycodes.com
+  -,dimain-suffix,spotifyforbrands.com
+  -,dimain-suffix,spotifyjobs.com
+  -,dimain-suffix,spotifynewsroom.jp
+  -,dimain-suffix,spotilocal.com
+  -,dimain-suffix,tospotify.com
+  -,dimain-keyword,-spotify-
+  -,dimain-keyword,spotify.com
