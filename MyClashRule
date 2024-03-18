@@ -1,43 +1,127 @@
-[custom]
+# 策略组
+proxy-groups:
+ # 选择`🎯 全球直连`为测试本地网络（运营商网络速度和 IPv6 支持情况），可选择其它节点用于测试机场节点速度和 IPv6 支持情况
+  - {name: 📈 网络测试, type: select, proxies: [🎯 大陆直连, 🇭🇰 香港, 🇹🇼 台湾, 🇯🇵 日本, 🇺🇸 美国, 🇸🇬 新加坡]}
+  
+  # 手动选择国家或地区节点；根据“国家或地区策略组”名称对 `proxies` 值进行增删改，须一一对应
+  - {name: 🚀 地区选择, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾, 🇯🇵 日本, 🇺🇸 美国, 🇸🇬 新加坡]}
 
-;设置规则标志位
-ruleset=🎵 TikTok,https://raw.githubusercontent.com/Hreo-Q/QuantumultX/Rule/TikTok.list
-ruleset=🎼 Spotify,https://raw.githubusercontent.com/Hreo-Q/QuantumultX/Rule/Spotify.list
-ruleset=📲  Telegram,https://raw.githubusercontent.com/Hreo-Q/QuantumultX/Rule/Telegram.list
-ruleset=📢 Google,https://raw.githubusercontent.com/Hreo-Q/QuantumultX/Rule/Google.list
-ruleset=🎮 游戏平台,https://raw.githubusercontent.com/Hreo-Q/Clash/Rule/Steam-Sony-Epic.list
-ruleset=📺 哔哩哔哩,https://raw.githubusercontent.com/Hreo-Q/Clash/Rule/Bilibili.list
-ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
-ruleset=🆎 AdBlock,https://raw.githubusercontent.com/Hreo-Q/Clash/Rule/AdBlock.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/Hreo-Q/QuantumultX/Rule/Direct.list
-ruleset=🎯 全球直连,[]GEOIP,CN
-ruleset=🐟 漏网之鱼,[]FINAL
+  # 若机场的 UDP 质量不是很好，导致某游戏无法登录或进入房间，可以添加 `disable-udp: true` 配置项解决
+  - {name: 🐟 漏网之鱼, type: select, proxies: [🚀 地区选择, 🎯 大陆直连]}
 
-;设置分组标志位
-;测速规则，间隔600秒，小于100不做切换
-custom_proxy_group=♻️ 自动选择`url-test`[]香港`[]台湾`[]日本`[]新加坡`[]美国`http://www.gstatic.com/generate_204`600,100
-custom_proxy_group=🐟 漏网之鱼`select`[]DIRECT`[]♻️ 自动选择`
-custom_proxy_group=🎵 TikTok`select`[]香港`[]台湾`[]日本`[]新加坡`[]美国`
-custom_proxy_group=🎼 Spotify`select`[]♻️ 自动选择`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`
-custom_proxy_group=📲  Telegram`select`[]♻️ 自动选择`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`
-custom_proxy_group=📢 Google`select`[]♻️ 自动选择`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`
-custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]♻️ 自动选择`[]香港`[]台湾`[]日本`[]韩国`[]新加坡`[]美国`
-custom_proxy_group=📺 哔哩哔哩`select`[]DIRECT`[]台湾`[]香港`
-custom_proxy_group=🎯 全球直连`select`[]DIRECT`
-custom_proxy_group=🍃 应用净化`select`[]REJECT`
-custom_proxy_group=🆎 AdBlock`select`[]REJECT`
-custom_proxy_group=香港`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|香港|HongKong|HK|Hong Kong)).*$)`http://www.gstatic.com/generate_204`600,100
-custom_proxy_group=台湾`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:台|新北|彰化|TW|Taiwan)).*$)`http://www.gstatic.com/generate_204`600,100
-custom_proxy_group=韩国`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:KR|Korea|KOR|首尔|韩|韓))`http://www.gstatic.com/generate_204`600,100
-custom_proxy_group=日本`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)).*$)`http://www.gstatic.com/generate_204`600,100
-custom_proxy_group=美国`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://www.gstatic.com/generate_204`600,100
-custom_proxy_group=新加坡`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:新加坡|坡|狮城|SG|Singapore)).*$)`http://www.gstatic.com/generate_204`600,100
+  - {name: 📢 Google, type: select, proxies: [🇭🇰 香港, 🇺🇸 美国, 🇸🇬 新加坡]}
+  
+  - {name: 🎬 Netflix, type: select, proxies: [指定节点]}
+  
+  - {name: 🎵 Spotify, type: select, proxies: [🇭🇰 香港, 🇯🇵 日本]}
+   
+  - {name: 📲 Telegram, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾]}
 
-enable_rule_generator=true
-overwrite_original_rules=true
-skip_failed_links=true
+  - {name: TikTok, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾]}
 
-#过滤节点，正则匹配
-exclude_remarks=(IPV6|重置|用户|本站|漏洞|永久虚通路|车|邀|免翻|邀请|eevpn|域名|机场|刷新|禁止|备用登录|计划|面板|忘记|到期|套餐|官网|更多|关注|25倍率|http|增加|持续|渠道|购买|QQ|Ins|二手)
+  - {name: OpenAi, type: select, proxies: [🇭🇰 香港, 🇹🇼 台湾]}
 
-;luck
+  - {name: 🪜 Global, type: select, proxies: [ 🇯🇵 日本, 🇺🇸 美国, 🇸🇬 新加坡]}
+
+  - {name: Ⓜ️ Microsoft, type: select, proxies: [🎯 大陆直连, 🚀 地区选择]}
+
+  - {name: 🛑 广告拦截, type: select, proxies: [REJECT]}
+
+  - {name: 🎯 大陆直连, type: select, proxies: [DIRECT]}
+
+  # ----------------国家或地区策略组---------------------
+  
+  # 节点负载均衡，即将请求均匀分配到多个节点上，优点是更稳定，速度可能有提升；将相同顶级域名的请求分配给策略组内的同一个代理节点；推荐在节点复用比较多的情况下使用
+  #- {name: 🇹🇼 台湾, type: load-balance, strategy: consistent-hashing, lazy: true, use: [🛫 我的订阅 Ⅰ, 🛫 我的订阅 Ⅱ], filter: "(?i)台|tw|taiwan"}
+  
+  # 自动选择节点，即按照 url 测试结果使用延迟最低的节点；测试后容差大于 100ms 才会切换到延迟低的那个节点；未选择到当前策略组时不会进行延迟测试；筛选出“香港”节点，支持正则表达式
+  
+  - {name: 🇭🇰 香港, type: url-test, tolerance: 100, lazy: true, use: [🛫 我的订阅 Ⅰ, 🛫 我的订阅 Ⅱ], filter: "(?i)港|hk|hongkong|hong kong"}
+
+  - {name: 🇹🇼 台湾, type: url-test, tolerance: 100, lazy: true, use: [🛫 我的订阅 Ⅰ, 🛫 我的订阅 Ⅱ], filter: "(?i)台|tw|taiwan"}
+
+  - {name: 🇯🇵 日本, type: url-test, tolerance: 100, lazy: true, use: [🛫 我的订阅 Ⅰ, 🛫 我的订阅 Ⅱ], filter: "(?i)日本|jp|japan"}
+
+  - {name: 🇺🇸 美国, type: url-test, tolerance: 100, lazy: true, use: [🛫 我的订阅 Ⅰ, 🛫 我的订阅 Ⅱ], filter: "(?i)美|us|unitedstates|united ates"}
+
+  - {name: 🇸🇬 新加坡, type: url-test, tolerance: 100, lazy: true, use: [🛫 我的订阅 Ⅰ, 🛫 我的订阅 Ⅱ], filter: "(?i)新|sg|singapore"}
+
+  - {name: 指定节点, type: select, lazy: true, use: [🛫 我的订阅 Ⅰ, 🛫 我的订阅 Ⅱ], filter: "(?i)台|tw|taiwan|日本|jp|japan|美|us|unitedstates|united states"} 
+
+# 规则集（yaml 文件每天自动更新）
+rule-providers:
+  ads:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/DustinWin/ruleset_geodata@clash/ads.yaml"
+    path: ./ruleset/ads.yaml
+    interval: 86400
+
+ Netflix:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Joker-II/Clash/Rule/Netflix.yaml"
+    path: ./ruleset/Netflix.yaml
+    interval: 86400
+
+ Spotify:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Joker-II/Clash/Rule/Spotify.yaml"
+    path: ./ruleset/Spotify.yaml
+    interval: 86400
+
+ Global:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Joker-II/Clash/Rule/Global.yaml"
+    path: ./ruleset/Global.yaml
+    interval: 86400
+
+ TikTok:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Joker-II/Clash/Rule/TikTok.yaml"
+    path: ./ruleset/TikTok.yaml
+    interval: 86400
+
+ Google:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Joker-II/Clash/Rule/Google.yaml"
+    path: ./ruleset/Google.yaml
+    interval: 86400
+
+ Microsoft:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Joker-II/Clash/Rule/Microsoft.yaml"
+    path: ./ruleset/Microsoft.yaml
+    interval: 86400
+
+ Telegram:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Joker-II/Clash/Rule/Telegram.yaml"
+    path: ./ruleset/Telegram.yaml
+    interval: 86400
+
+ OpenAi:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Joker-II/Clash/Rule/OpenAi.yaml"
+    path: ./ruleset/OpenAi.yaml
+    interval: 86400
+
+# 规则
+rules:
+  - RULE-SET,ads,🛑 广告拦截
+  - RULE-SET,Netflix,🎬 Netflix
+  - RULE-SET,Spotify,🎵 Spotify
+  - RULE-SET,Microsoft,Ⓜ️ Microsoft
+  - RULE-SET,Google,📢 Google
+  - RULE-SET,Global,🪜 Global
+  - RULE-SET,Telegramip,📲 Telegram
+  - RULE-SET,TikTok,TikTok
+  - RULE-SET,OpenAi,OpenAi
+  - MATCH,🐟 漏网之鱼
