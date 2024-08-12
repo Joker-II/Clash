@@ -1,0 +1,16 @@
+
+108.168.176.192/26,no-resolve
+108.168.177.0/27,no-resolve
+108.168.180.96/27,no-resolve
+108.168.254.65/32,no-resolve
+108.168.255.224/32,no-resolve
+108.168.255.227/32,no-resolve
+108.177.8.0/21,no-resolve
+119.235.224.0/24,no-resolve
+119.235.232.0/24,no-resolve
+119.235.236.0/23,no-resolve
+129.134.0.0/17,no-resolve
+157.240.0.0/17,no-resolve
+169.45.248.118/32,no-resolve
+173.252.64.0/18,no-resolve
+3.123.36.126/32,no-resolve
