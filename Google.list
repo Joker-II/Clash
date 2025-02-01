@@ -1113,6 +1113,11 @@ firebase-settings.crashlytics.com
 +.googlevads-cn.com
 +.marketingplatform.google.com
 +.urchin.com
++.services.googleapis.cn
++.play.googleapis.com
++.android.clients.google.com
++.xn--ngstr-lra8j.com
+connectivitycheck.gstatic.com
 analytics.google.com
 +.ggpht.cn
 pki-goog.l.google.com
