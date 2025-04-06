@@ -1,5 +1,5 @@
-# behavior: domain > format: text
-# OpenAI ChatGPT
+# > behavior: domain > format: text
+# > OpenAI ChatGPT
 api.statsig.com
 api-iam.intercom.io
 openaicom.imgix.net 
@@ -17,7 +17,7 @@ openaicomproductionae4b.blob.core.windows.net
 +.revenuecat.com
 +.oaiusercontent.com 
 
-# Google Gemini
+# > Google Gemini
 ai.google.dev
 +.deepmind.com
 +.apis.google.com
