@@ -1,3 +1,4 @@
+# behavior: domain > format: text
 # OpenAI ChatGPT
 api.statsig.com
 api-iam.intercom.io
