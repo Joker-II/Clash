@@ -1,3 +1,4 @@
+# > behavior: domain > format: text
 # > Wikipedia
 +.mediawiki.org
 +.wikibooks.org
@@ -12,7 +13,7 @@
 +.wikivoyage.org
 +.wiktionary.org
 
-#Github
+# > Github
 github-cloud.s3.amazonaws.com
 +.githubnext.com
 +.github.blog
@@ -40,7 +41,7 @@ github-cloud.s3.amazonaws.com
 +.npmjs.com
 +.blob.core.windows.net
 
-#Twitter
+# > Twitter
 +.ads-twitter.com
 +.cms-twdigitalassets.com
 +.periscope.tv
