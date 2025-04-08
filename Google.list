@@ -2,7 +2,7 @@
 # > Google > YouTube
 DOMAIN-SUFFIX,amemv.com
 # > Google
-DOMAIN,googleapis.com
+DOMAIN,www.googleapis.com
 DOMAIN,play.googleapis.com
 DOMAIN-KEYWORD,gmail
 DOMAIN-SUFFIX,0emm.com
