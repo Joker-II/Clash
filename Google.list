@@ -1,6 +1,5 @@
 # > behavior: classical > format: text
 # > Google > YouTube
-DOMAIN-SUFFIX,amemv.com
 # > Google
 DOMAIN,www.googleapis.com
 DOMAIN,play.googleapis.com
