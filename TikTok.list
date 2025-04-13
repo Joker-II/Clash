@@ -1,26 +1,18 @@
-# > behavior: domain > format: text
-+.lf16-effectcdn.byteeffecttos-g.com
-+.lf16-pkgcdn.pitaya-clientai.com
-+.p16-tiktokcdn-com.akamaized.net
-+.bytedapm.com
-+.bytegecko-i18n.com
-+.bytegecko.com
-+.byteoversea.com
-+.capcut.com
-+.ibytedtos.com
-+.ibyteimg.com
-+.ipstatp.com
-+.isnssdk.com
-+.muscdn.com
-+.musical.ly
-+.sgpstatp.com
-+.tik-tokapi.com
-+.tiktok.com
-+.tiktokcdn-us.com
-+.tiktokcdn.com
-+.tiktokd.net
-+.tiktokd.org
-+.tiktokv.com
-+.tiktokv.us
-+.tiktokw.us
-+.ttwstatic.com
+# > behavior: classical > format: text
+# > TikTok
+DOMAIN, lf16-effectcdn.byteeffecttos-g.com
+DOMAIN, lf16-pkgcdn.pitaya-clientai.com
+DOMAIN-KEYWORD, tiktok
+DOMAIN-SUFFIX, bytedapm.com
+DOMAIN-SUFFIX, bytegecko-i18n.com
+DOMAIN-SUFFIX, byteoversea.com
+DOMAIN-SUFFIX, capcut.com
+DOMAIN-SUFFIX, ibytedtos.com
+DOMAIN-SUFFIX, ibyteimg.com
+DOMAIN-SUFFIX, ipstatp.com
+DOMAIN-SUFFIX, isnssdk.com
+DOMAIN-SUFFIX, muscdn.com
+DOMAIN-SUFFIX, musical.ly
+DOMAIN-SUFFIX, sgpstatp.com
+DOMAIN-SUFFIX, tik-tokapi.com
+DOMAIN-SUFFIX, ttwstatic.com
