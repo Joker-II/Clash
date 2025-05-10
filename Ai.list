@@ -28,10 +28,8 @@ ai.google.dev
 +.clients6.google.com
 +.aistudio.google.com
 +.makersuite.google.com
-+.oauth2.googleapis.com
 +.people-pa.googleapis.com
 +.geller-pa.googleapis.com
 +.notifications-pa.googleapis.com
 +.generativelanguage.googleapis.com
 +.proactivebackend-pa.googleapis.com
-+.oauthaccountmanager.googleapis.com
