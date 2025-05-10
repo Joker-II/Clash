@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,466453.com
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,accounts.googlers.com
+DOMAIN-SUFFIX,accountcapabilities-pa.googleapis.com
 DOMAIN-SUFFIX,adgoogle.net
 DOMAIN-SUFFIX,admeld.com
 DOMAIN-SUFFIX,admob-cn.com
@@ -563,6 +564,9 @@ DOMAIN-SUFFIX,near.by
 DOMAIN-SUFFIX,nest.com
 DOMAIN-SUFFIX,neverware.com
 DOMAIN-SUFFIX,nomulus.foo
+DOMAIN-SUFFIX,notifications-pa.googleapis.com
+DOMAIN-SUFFIX,oauth2.googleapis.com
+DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
 DOMAIN-SUFFIX,oasisfeng.com
 DOMAIN-SUFFIX,oauthz.com
 DOMAIN-SUFFIX,ok.gle
