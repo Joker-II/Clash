@@ -1,5 +1,5 @@
-# > behavior: classical > format: text
-rules:
+# > behavior: classical > format: yaml
+payload:
 - DOMAIN,audio-ak-spotify-com.akamaized.net
 - DOMAIN,audio4-ak-spotify-com.akamaized.net
 - DOMAIN,heads-ak-spotify-com.akamaized.net
