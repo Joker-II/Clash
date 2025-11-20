@@ -1,6 +1,7 @@
 # > behavior: classical > format: text
 # > Google > YouTube
 # > Google
+DOMAIN,www.google.com
 DOMAIN,www.googleapis.com
 DOMAIN,play.googleapis.com
 DOMAIN,content-autofill.googleapis.com
