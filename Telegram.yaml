@@ -1,5 +1,5 @@
-# > behavior: classical > format: text
-rules:
+# > behavior: classical > format: yaml
+payload:
 - DOMAIN-SUFFIX,comments.app
 - DOMAIN-SUFFIX,contest.com
 - DOMAIN-SUFFIX,graph.org
