@@ -1,5 +1,5 @@
-# > behavior: classical > format: text
-rules:
+# > behavior: classical > format: yaml
+payload:
 - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
 - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
 - DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com
