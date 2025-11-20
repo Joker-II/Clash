@@ -1,7 +1,7 @@
-# > behavior: classical > format: text
+# > behavior: classical > format: yaml
 # > Google > YouTube
 # > Google
-rules:
+payload:
 - DOMAIN,www.google.com
 - DOMAIN,www.googleapis.com
 - DOMAIN,play.googleapis.com
