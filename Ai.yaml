@@ -1,4 +1,4 @@
-# > behavior: domain > format: yaml
+# > behavior: classical > format: yaml
 payload:
 # OpenAI ChatGPT
 - DOMAIN, api.statsig.com
