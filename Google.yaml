@@ -2,7 +2,6 @@
 # > Google > YouTube
 # > Google
 payload:
-- DOMAIN,www.google.com
 - DOMAIN,www.googleapis.com
 - DOMAIN,play.googleapis.com
 - DOMAIN,content-autofill.googleapis.com
@@ -292,6 +291,7 @@ payload:
 - DOMAIN-SUFFIX,google.cl
 - DOMAIN-SUFFIX,google.cm
 - DOMAIN-SUFFIX,google.cn
+- DOMAIN-SUFFIX,google.com
 - DOMAIN-SUFFIX,google.co.ao
 - DOMAIN-SUFFIX,google.co.bw
 - DOMAIN-SUFFIX,google.co.ck
