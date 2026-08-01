@@ -1,0 +1,45 @@
+# > binance
+DOMAIN-SUFFIX, bnappzh.co
+DOMAIN-SUFFIX, mokexapp.io
+DOMAIN-SUFFIX, bntrace.com
+DOMAIN-SUFFIX, bnappweb.biz
+DOMAIN-SUFFIX, appsflayer.com
+DOMAIN-SUFFIX, forter.com
+DOMAIN-SUFFIX, amazontrust.com
+DOMAIN-SUFFIX, file.myqcloud.com
+DOMAIN-SUFFIX, elb.amazonaws.com
+DOMAIN-KEYWORD, bnb
+DOMAIN-KEYWORD, binance
+DOMAIN-KEYWORD, Saasexch
+DOMAIN-KEYWORD, yingwangtech
+DOMAIN-KEYWORD, mtalk.google.com
+
+# > bilibili
+# 商城
+DOMAIN,mall.bilibili.com
+# 评论区
+DOMAIN,api.vc.bilibili.com
+# CDN
+DOMAIN,upos-sz-mirrocos.bilivideo.com
+DOMAIN,upos-sz-mirroraliov.bilivideo.com 
+DOMAIN,upos-tf-all-hw.bilivideo.com
+DOMAIN,upos-tf-all-tx.bilivideo.com
+DOMAIN,proxy-tf-all-ws.bilivideo.com
+
+DOMAIN-SUFFIX, icloud.com
+DOMAIN-SUFFIX, hotmail.com
+DOMAIN-SUFFIX, microsoftonline.com
+IP-CIDR, 17.0.0.0/8
+IP-CIDR, 40.96.0.0/13
+
+USER-AGENT, zhihuiguanjia*
+USER-AGENT, MicroMessenger*
+USER-AGENT, MicroMessengerClient*
+USER-AGENT, TeamViewer*
+USER-AGENT, hide*
+USER-AGENT, *WeatherFoundation*
+USER-AGENT, FMFD*
+USER-AGENT, Wallet*
+USER-AGENT, geod*
+USER-AGENT, locationd*
+USER-AGENT, passd*
